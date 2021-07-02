@@ -2,7 +2,8 @@
     package="com.example.flutter_starter">
    <application
         android:label="flutter_starter"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        android:name="androidx.multidex.MultiDexApplication">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
