@@ -1,4 +1,4 @@
-# Flutter Starter Architecture (MVVM) 👷🔧🔩
+# Flutter Starter Architecture (MVVM + Hive) 👷🔧🔩
 
 My custom starter project for Flutter apps.
 
@@ -19,6 +19,8 @@ I have made:
 I have also added a base class for viewmodels [here](lib/viewmodels/base_viewmodel.dart). All the next viewmodels you'll write should inherit from the BaseViewModel class. There is also a BaseView widget [here](lib/views/base_view.dart) to mix the access easily to the base viewmodel proper to each class.
 
 At the root of the app, you will see the [locator.dart](lib/locator.dart) file where I registered an instance of each service and viewmodel in order to use them efficiently in the whole app. You will also find the [routes.dart](lib/routes.dart) where the named routes of the app are stored in the AppRouter class.
+
+On this branch I have added some utilities on to handle local storage with [Hive](https://pub.dev/packages/hive).
 
 > ### Future 💥
 

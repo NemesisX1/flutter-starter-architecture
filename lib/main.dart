@@ -1,6 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_starter/helpers/theme.dart';
+import 'package:hive_flutter/hive_flutter.dart';
+import 'helpers/theme.dart';
+import 'models/appuser_model.dart';
 import 'locator.dart';
 import 'routes.dart';
 
@@ -10,6 +12,9 @@ void globalInitializer() async {
   WidgetsFlutterBinding.ensureInitialized();
   setupLocator();
   await Firebase.initializeApp();
+  await Hive.initFlutter();
+  Hive.registerAdapter(AppUserAdapter());
+  await Hive.openBox<AppUser>("user");
 }
 
 void main() {
