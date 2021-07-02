@@ -3,9 +3,7 @@
 My custom starter project for Flutter apps.
 
 I was looking for a simple way to build Flutter app in a [*scalable and clear way*](https://www.businessofapps.com/insights/why-app-scalability-is-important-and-why-you-should-be-prepared-for-it-from-start/#:~:text=Scalability%20is%20the%20function%20of,features%20will%20cause%20a%20gridlock.)   way to operate. So I've spent a little to search for how to implement an MVVM architecture in a proper and efficient way for scalable apps. This is the first result of my research. I use it for two projects now.
-
 This one provide an MVVM architecture powered by [get_it](https://pub.dev/packages/get_it) and [provider](https://pub.dev/packages/providers).
-
 This work was mainly inspired by the work of [Filledstacks](https://github.com/FilledStacks/flutter-tutorials).
 
 > ## Overview 👀
@@ -20,9 +18,9 @@ I have made:
 
 At the root of the app, you will see the [locator.dart](lib/locator.dart) file where I registered an instance of each service and viewmodel in order to use them efficiently in the whole app. You will also find the [routes.dart](lib/routes.dart) where the named routes of the app are stored in the AppRouter class.
   
-> ### Future
+> ### Future 💥
 
-I will create new branches to add more base project with various kind of scalable architecture
+I will create new branches to add more base project with various kind of scalable architecture.
 
 > ### Getting Started with Flutter
 
