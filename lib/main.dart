@@ -12,8 +12,8 @@ void globalInitializer() async {
   await Firebase.initializeApp();
 }
 
-void main() {
-  globalInitializer();
+void main() async {
+  await globalInitializer();
 
   runApp(App());
 }
