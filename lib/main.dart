@@ -17,8 +17,8 @@ void globalInitializer() async {
   await Hive.openBox<AppUser>("user");
 }
 
-void main() {
-  globalInitializer();
+void main() async {
+  await globalInitializer();
 
   runApp(App());
 }
