@@ -1,4 +1,4 @@
-# Flutter Starter Architecture (MVVM) 👷🔧🔩
+# 👷🔧🔩 Flutter Starter Architecture (MVVM)
 
 My custom starter project for Flutter apps.
 
@@ -6,7 +6,7 @@ I was looking for a simple way to build Flutter app in a [*scalable and clear wa
 This one provide an MVVM architecture powered by [get_it](https://pub.dev/packages/get_it) and [provider](https://pub.dev/packages/provider).
 This work was mainly inspired by the work of [Filledstacks](https://github.com/FilledStacks/flutter-tutorials).
 
-> ## Overview 👀
+> ## 👀 Overview
 
 I have made:
 
@@ -20,9 +20,15 @@ I have also added a base class for viewmodels [here](lib/viewmodels/base_viewmod
 
 At the root of the app, you will see the [locator.dart](lib/locator.dart) file where I registered an instance of each service and viewmodel in order to use them efficiently in the whole app. You will also find the [routes.dart](lib/routes.dart) where the named routes of the app are stored in the AppRouter class.
 
-> ### Future 💥
+> ### 💥 Future
 
 I will create new branches to add more base project with various kind of scalable architecture.
+
+> ## :electric_plug:  Plugins inside
+The repository contains based packages for provider, firebase, firebase_auth, cloud_firestore, and get_it
+
+> ## :sunglasses:  Author(s)
+**Junior Medehou** [![Twitter Follow](https://img.shields.io/twitter/follow/juniormedehou_?label=Follow&style=social)](https://twitter.com/juniormedehou_)
 
 > ### Getting Started with Flutter
 

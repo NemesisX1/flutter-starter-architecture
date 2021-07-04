@@ -6,14 +6,14 @@ import 'routes.dart';
 
 /// [globalInitializer()]
 /// Function to initialise all the pre-app things
-void globalInitializer() async {
+globalInitializer() async {
   WidgetsFlutterBinding.ensureInitialized();
   setupLocator();
   await Firebase.initializeApp();
 }
 
-void main() {
-  globalInitializer();
+void main() async {
+  await globalInitializer();
 
   runApp(App());
 }
