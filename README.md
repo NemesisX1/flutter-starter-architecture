@@ -27,9 +27,11 @@ On this branch I have added some utilities on to handle local storage with [Hive
 I will create new branches to add more base project with various kind of scalable architecture.
 
 > ## :electric_plug:  Plugins inside
+
 The repository contains based packages for provider, firebase, firebase_auth, cloud_firestore, hive, and get_it
 
 > ## :sunglasses:  Author(s)
+
 **Junior Medehou** [![Twitter Follow](https://img.shields.io/twitter/follow/juniormedehou_?label=Follow&style=social)](https://twitter.com/juniormedehou_)
 
 > ### Getting Started with Flutter
