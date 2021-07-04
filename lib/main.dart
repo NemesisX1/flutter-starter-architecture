@@ -1,4 +1,3 @@
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_starter/helpers/theme.dart';
 import 'locator.dart';
@@ -6,10 +5,9 @@ import 'routes.dart';
 
 /// [globalInitializer()]
 /// Function to initialise all the pre-app things
-void globalInitializer() async {
+globalInitializer() async {
   WidgetsFlutterBinding.ensureInitialized();
   setupLocator();
-  await Firebase.initializeApp();
 }
 
 void main() async {

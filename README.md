@@ -1,4 +1,4 @@
-# 👷🔧🔩 Flutter Starter Architecture (MVVM)
+# 👷🔧🔩 Flutter Starter Architecture (MVVM without Firebase and Hive)
 
 My custom starter project for Flutter apps.
 
@@ -25,9 +25,11 @@ At the root of the app, you will see the [locator.dart](lib/locator.dart) file w
 I will create new branches to add more base project with various kind of scalable architecture.
 
 > ## :electric_plug:  Plugins inside
-The repository contains based packages for provider, firebase, firebase_auth, cloud_firestore, and get_it
+
+The repository contains based packages for provider, and get_it
 
 > ## :sunglasses:  Author(s)
+
 **Junior Medehou** [![Twitter Follow](https://img.shields.io/twitter/follow/juniormedehou_?label=Follow&style=social)](https://twitter.com/juniormedehou_)
 
 > ### Getting Started with Flutter
