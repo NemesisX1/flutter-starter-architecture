@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../viewmodels/base_viewmodel.dart';
+import '../viewmodels/base.viewmodel.dart';
 import '../views/base_view.dart';
 
 /// A basic use case of the interaction between with a view and its related
