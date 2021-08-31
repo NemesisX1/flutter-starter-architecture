@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'helpers/empty_view.dart';
-import 'views/home/home_view.dart';
+import 'helpers/empty.view.dart';
+import 'views/home/home.view.dart';
 
 /// [AppRouter]
 /// This the base router classes where you can registered
@@ -9,7 +9,7 @@ import 'views/home/home_view.dart';
 class AppRouter {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
-      case '/':
+      case HomeView.routeName:
         return MaterialPageRoute(builder: (_) => HomeView());
       default:
         return MaterialPageRoute(builder: (_) {

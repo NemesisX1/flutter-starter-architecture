@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'widgets/custom_widget.dart';
+import 'widgets/custom.widget.dart';
 
 class HomeView extends StatefulWidget {
+  static const routeName = '/';
   HomeView({Key? key}) : super(key: key);
 
   @override
