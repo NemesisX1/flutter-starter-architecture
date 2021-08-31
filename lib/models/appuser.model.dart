@@ -1,8 +1,9 @@
+import 'package:flutter_starter/models/base.model.dart';
 import 'package:hive/hive.dart';
-part 'appuser_model.g.dart';
+part 'appuser.model.g.dart';
 
 @HiveType(typeId: 0)
-class AppUser extends HiveObject {
+class AppUser extends HiveObject implements BaseModel {
   @HiveField(0)
   final String? username;
   @HiveField(1)
