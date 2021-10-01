@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'helpers/empty_view.dart';
-import 'views/home/home_view.dart';
+import 'views/home/home.view.dart';
 
 /// [AppRouter]
 /// This the base router classes where you can registered

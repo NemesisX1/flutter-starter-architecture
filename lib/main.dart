@@ -1,8 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_starter/models/appuser.model.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'helpers/theme.dart';
-import 'models/appuser_model.dart';
 import 'locator.dart';
 import 'routes.dart';
 

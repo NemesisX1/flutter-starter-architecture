@@ -1,6 +1,6 @@
+import 'package:flutter_starter/models/appuser.model.dart';
 import 'package:flutter_starter/services/base.service.dart';
 import 'package:hive/hive.dart';
-import '../../models/appuser_model.dart';
 
 /// [LocalService]
 /// A base class to interact with local storage with Hive
