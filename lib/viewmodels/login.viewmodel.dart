@@ -1,3 +1,3 @@
-import '../viewmodels/base_viewmodel.dart';
+import '../viewmodels/base.viewmodel.dart';
 
 class LoginViewModel extends BaseViewModel {}

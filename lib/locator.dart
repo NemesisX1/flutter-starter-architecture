@@ -1,3 +1,4 @@
+import 'package:flutter_starter/helpers/empty.view.dart';
 import 'package:get_it/get_it.dart';
 import 'services/api/api.service.dart';
 import 'services/local/local.service.dart';
@@ -12,4 +13,5 @@ void setupLocator() {
 
   // Here you register all your viewmodels
   locator.registerFactory(() => LoginViewModel());
+  locator.registerFactory(() => EmptyViewModel());
 }
