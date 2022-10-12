@@ -12,7 +12,7 @@ import 'routes.dart';
 globalInitializer() async {
   WidgetsFlutterBinding.ensureInitialized();
   setupLocator();
-  await Firebase.initializeApp();
+  // await Firebase.initializeApp();
 }
 
 void main() async {
